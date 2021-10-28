@@ -2,10 +2,9 @@ package main
 
 import (
 	"context"
-	"log"
-
-	proto "gitlab.com/gitlab-org/project-templates/go-micro/proto"
+	proto "github.com/ShaoZeMing/going-micro/proto"
 	"github.com/micro/go-micro"
+	"log"
 )
 
 type Greeter struct{}
